@@ -3,6 +3,7 @@ import '../css/nav.css';
 import { FaFacebookF, FaTwitter, FaInstagram, FaPinterestP, FaSearch, FaAngleDown } from "react-icons/fa";
 import CategoryDropdown from "./CategoryDropdown";
 import BlogDropdown from "./BlogDropdown";
+import SearchModel from "./SearchModal";
 function Nav(){
     return(
         <>
@@ -18,9 +19,7 @@ function Nav(){
                     <div className='logo'>
                         <a href='facebook.com' className='logo_link'>Blogs Daily</a>
                     </div>
-                    <div className='serch_menu'>
-                        <a href='logo.com' className='search_menu_link first_menu_link'><span>search</span><FaSearch/></a>
-                    </div>
+                    <SearchModel />
                 </div>
                 <div className='second_nav'>
                     <ul>

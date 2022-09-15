@@ -3,6 +3,7 @@
     color: #ffffff;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .navigation_section{
@@ -69,12 +70,15 @@
     align-items: center;
     text-transform: capitalize;
     line-height: 45px;
-    
+    background: transparent;
+    border: none; 
+    cursor: pointer;
 }
 
-.search_menu_link span{
-    padding: 0 6px;
+.search_menu_link span, .search_menu_link p{
+    padding: 0 3px;
     font-size: 16px;
+    color: #ffffff;
 }
 
 .nav_menu{
@@ -94,6 +98,48 @@
 .dropdown_menu li{
     list-style: none;
     padding: 10px 0;
+}
+
+.modelbox{
+    height: 100vh;
+    width: 100vw;
+    background-color: #171717;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modelbox p{
+    position: absolute;
+    top: 1vh;
+    left: 50%;
+    font-size: 26px;
+}
+.modelbox_content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.modelbox_content label{
+    font-size: 30px;
+}
+
+.modelbox_content input{
+    width: 600px;
+    height: 60px;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+    padding: 6px 16px;
+}
+.modelbox_content h3{
+    color: #a2a099;
 }
 /* for second navigation section in hearder  */
 

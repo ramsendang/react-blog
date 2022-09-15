@@ -1,0 +1,54 @@
+.nav{
+    background-color: #171717;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation_section{
+    width: 60%;
+}
+
+/* for first naviagtion menu in header section  */
+
+.first_nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 0;
+}
+
+.first_nav a{
+    text-decoration: none;
+    color: #ffffff ;
+}
+
+.first_nav .logo_link{
+    font-size: 40px;
+}
+
+.first_menu_link{
+    font-size: 22px;
+}
+
+/* for second navigation section in hearder  */
+
+.second_nav{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.second_nav ul{
+    display: flex;
+}
+
+.second_nav ul li{
+    list-style: none;
+    margin-left: 20px   ;
+}
+
+.second_nav ul li a{
+    text-decoration: none;
+    color: #a2a099;
+}

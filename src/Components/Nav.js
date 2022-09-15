@@ -1,8 +1,11 @@
-import React from "react";
+import {React, useState} from "react";
 import '../css/nav.css';
 import { FaFacebookF, FaTwitter, FaInstagram, FaPinterestP, FaSearch, FaAngleDown } from "react-icons/fa";
+import CategoryDropdown from "./CategoryDropdown";
+import BlogDropdown from "./BlogDropdown";
 function Nav(){
     return(
+        <>
         <nav className="nav">
             <section className='navigation_section'>
                 <div className='first_nav'>
@@ -22,8 +25,8 @@ function Nav(){
                 <div className='second_nav'>
                     <ul>
                         <li><a href='home.com' className="nav_menu">Home</a></li>
-                        <li><a href='home.com' className="nav_menu">Categories <span><FaAngleDown/></span></a></li>
-                        <li><a href='home.com' className="nav_menu">Blogs <span><FaAngleDown/></span></a></li>
+                        <CategoryDropdown/>
+                        <BlogDropdown/>
                         <li><a href='home.com' className="nav_menu">Styles</a></li>
                         <li><a href='home.com' className="nav_menu">About</a></li>
                         <li><a href='home.com' className="nav_menu">Contact</a></li>
@@ -31,6 +34,7 @@ function Nav(){
                 </div>
             </section>
         </nav>
+        </>
     );
 }
 

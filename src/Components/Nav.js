@@ -1,27 +1,32 @@
+import React from "react";
 import '../css/nav.css';
-
+import { FaFacebookF, FaTwitter, FaInstagram, FaPinterestP, FaSearch, FaAngleDown } from "react-icons/fa";
 function Nav(){
     return(
         <nav className="nav">
             <section className='navigation_section'>
                 <div className='first_nav'>
                     <div className='social_menu'>
-                    <a href='facebook.com' className='social_links first_menu_link'>facebook</a>
-                    <a href='facebook.com' className='social_links first_menu_link'>Twitter</a>
+                    <a href='facebook.com' className='social_links first_menu_link'><FaFacebookF /></a>
+                    <a href='facebook.com' className='social_links first_menu_link'><FaTwitter/></a>
+                    <a href='facebook.com' className='social_links first_menu_link'><FaInstagram/></a>
+                    <a href='facebook.com' className='social_links first_menu_link'><FaPinterestP/></a>
                     </div>
                     <div className='logo'>
                         <a href='facebook.com' className='logo_link'>Blogs Daily</a>
                     </div>
                     <div className='serch_menu'>
-                        <a href='logo.com' className='first_menu_link'>search</a>
+                        <a href='logo.com' className='search_menu_link first_menu_link'><span>search</span><FaSearch/></a>
                     </div>
                 </div>
                 <div className='second_nav'>
                     <ul>
-                        <li><a href='home.com'>Home</a></li>
-                        <li><a href='home.com'>Home</a></li>
-                        <li><a href='home.com'>Home</a></li>
-                        <li><a href='home.com'>Home</a></li>
+                        <li><a href='home.com' className="nav_menu">Home</a></li>
+                        <li><a href='home.com' className="nav_menu">Categories <span><FaAngleDown/></span></a></li>
+                        <li><a href='home.com' className="nav_menu">Blogs <span><FaAngleDown/></span></a></li>
+                        <li><a href='home.com' className="nav_menu">Styles</a></li>
+                        <li><a href='home.com' className="nav_menu">About</a></li>
+                        <li><a href='home.com' className="nav_menu">Contact</a></li>
                     </ul>
                 </div>
             </section>

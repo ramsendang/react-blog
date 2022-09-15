@@ -23,6 +23,10 @@
     color: #ffffff ;
 }
 
+.social_links{
+    margin-right: 10px;
+}
+
 .first_nav .logo_link{
     font-size: 40px;
 }
@@ -31,6 +35,33 @@
     font-size: 22px;
 }
 
+.search_menu_link{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    line-height: 45px;
+    
+}
+
+.search_menu_link span{
+    padding: 0 6px;
+    font-size: 16px;
+}
+
+.nav_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0 10px;
+}
+
+.nav_menu span{
+    font-size: 16px;
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+}
 /* for second navigation section in hearder  */
 
 .second_nav{

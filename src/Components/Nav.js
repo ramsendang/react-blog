@@ -19,7 +19,7 @@ function Nav(){
                     <div className='logo'>
                         <a href='facebook.com' className='logo_link'>Blogs Daily</a>
                     </div>
-                    <SearchModel />
+                    <SearchModel/>
                 </div>
                 <div className='second_nav'>
                     <ul>

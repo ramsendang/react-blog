@@ -14,7 +14,7 @@ function Home(){
                         <img src={music}/>
                         <div className='card_content'>
                             <p className='first_cart_category'><span>Music</span></p>
-                            <h3 className='first_cart_heading'>What Your Music Preference Says About You and Your Personality</h3>
+                            <h3 className='first_cart_heading'>What Your Music Preference Says About You and Your Personality.</h3>
                             <div className='card_info'>
                                 <div className='profile_container'>
                                     <a href="" className='profile'><img className='profile_image' src={profileimg}  alt="profileimage"/></a>
@@ -33,7 +33,7 @@ function Home(){
                             <img src={managementimg}/>
                             <div className='card_content'>
                                 <p className='second_cart_category'><span>Management</span></p>
-                                <h3 className='second_cart_heading'>What Your Music Preference Says About You and Your Personality</h3>
+                                <h3 className='second_cart_heading'>The Pomodoro Technique Really Works.</h3>
                                 <div className='card_info'>
                                 <div className='profile_container'>
                                     <a href="" className='profile'><img className='profile_image' src={profileimg}  alt="profileimage"/></a>
@@ -51,7 +51,7 @@ function Home(){
                             <img src={lifestyle}/>
                             <div className='card_content'>
                                 <p className='second_cart_category'><span>Lifestyle</span></p>
-                                <h3 className='second_cart_heading'>What Your Music Preference Says About You and Your Personality</h3>
+                                <h3 className='second_cart_heading'>Throwback To The Good Old Days. </h3>
                                 <div className='card_info'>
                                     <div className='profile_container'>
                                         <a href="" className='profile'><img className='profile_image' src={profileimg}  alt="profileimage"/></a>
